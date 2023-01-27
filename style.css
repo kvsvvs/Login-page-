@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.outer-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+.inner-container img {
+  width: 88px;
+  height: 80px;
+  margin: 0px auto 43px;
+}
+.inner-container p {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 13px;
+  color: #4f4f4f;
+}
+.inner-container input {
+  margin-bottom: 32px;
+  padding: 12px;
+}
+#log-in-btn {
+  width: 413px;
+  height: 40px;
+  background: #f5384f;
+  color: aliceblue;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* .pwd {
+  background: url(./show_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center right 20px; */
+
+#id_password {
+  display: flex;
+  flex-direction: row;
+  display: inline;
+  width: 99%;
+}
